@@ -1,0 +1,90 @@
+/*
+  Name: Katherine Escoto Licona
+  Date: 04.4.2024
+  Section AD: Allan Tran & Max Beard
+
+  This is my css file that styles my portfolio such as the fonts used and the colors
+  that are used. This files that are included are contained are about, home, contact and bio page
+  through class names to specifically make the changes to that page or through tags and selectors.
+*/
+
+/*
+  Note: This body rule set is to get you started and does not count towards the CP1 requirements.
+  Feel free to change or remove any of these rules.
+*/
+
+body {
+  background-color: #AEC5D8;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+header {
+  padding: 60px;
+  background-color: #D9BBBB;
+
+}
+
+nav {
+  background-color: white;
+  height: 100px;
+  align-items: center;
+}
+
+a {
+  color: pink;
+  font-size: 40px;
+}
+
+img {
+  border: 5px solid white;
+}
+
+caption {
+  float: left;
+}
+
+footer {
+  background-color: #E9E1DA;
+}
+
+section {
+  background: #C2ACB4;
+  padding: 50px;
+  margin: 20px;
+}
+
+.navbartext > li {
+  display: inline-block;
+  margin: 10pt;
+}
+
+#swing, .me {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  color: purple;
+  font-family: "Caveat", cursive;
+}
+
+h1, nav ul, .contact {
+  text-align: center;
+}
+
+.contact {
+  color: white;
+}
+
+#name {
+  font-size: 100px;
+}
